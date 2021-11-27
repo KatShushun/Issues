@@ -1,4 +1,4 @@
-package manager;
+package ru.netology.manager;
 
 import domain.Issue;
 import org.junit.jupiter.api.BeforeEach;

@@ -1,6 +1,8 @@
 package repository;
 
 import domain.Issue;
+import manager.IssueManager;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
@@ -8,7 +10,7 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class IssueRepositoryTest {
-    repository.IssueRepository repository = new repository.IssueRepository();
+    IssueRepository repository = new IssueRepository();
 
     @Test
     void saveAllReports() {
